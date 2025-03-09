@@ -16,7 +16,7 @@ PGPORT="5432"
 
 # Define the directory where backups will be stored locally.
 # The script ensures that this directory exists before proceeding.
-BACKUP_DIR="/home/aress/postgres_backup/backup"
+BACKUP_DIR="/home/**/postgres_backup/backup"
 mkdir -p "$BACKUP_DIR"
 
 # Generate a timestamp to append to the backup filenames.
