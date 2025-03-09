@@ -8,11 +8,11 @@ NAMESPACE="ns-production2"
 
 # Define PostgreSQL connection details.
 # PGUSER: The username used to connect to PostgreSQL.
-PGUSER="admin"
+PGUSER="**"
 
 # Define the directory where backups will be stored locally.
 # The script ensures that this directory exists before proceeding.
-BACKUP_DIR="/home/aress/postgres_backup/full_backup"
+BACKUP_DIR="/home/**/postgres_backup/full_backup"
 mkdir -p "$BACKUP_DIR"
 
 # Define the backup retention policy (number of days to keep old backups).
