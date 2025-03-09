@@ -7,11 +7,11 @@ REMOTE_SERVER="***"
 
 # Define the remote directory on the source server that contains the backup files.
 # This is where the script will pull the backups from.
-REMOTE_BACKUP_DIR="/home/aress/postgres_backup/backup"
+REMOTE_BACKUP_DIR="/home/**/postgres_backup/backup"
 
 # Define the local directory on the destination server (130) where backups will be stored.
 # The script will sync the files from the remote server into this directory.
-LOCAL_BACKUP_DIR="/home/aress/script_postgres"
+LOCAL_BACKUP_DIR="/home/**/script_postgres"
 
 # Define the number of days to retain old backups on the local server.
 # Any backups older than this number of days will be deleted after synchronization.
