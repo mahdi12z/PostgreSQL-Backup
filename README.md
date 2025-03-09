@@ -4,10 +4,15 @@ This Bash script automates the backup process for PostgreSQL databases (includin
 
 # Features
 ✅ Automatically retrieves all PostgreSQL databases
+
 ✅ Detects TimescaleDB extension and applies the correct backup method
+
 ✅ Uses pg_dump to create backups in custom format
+
 ✅ Transfers backups from the Kubernetes pod to the local machine
+
 ✅ Compresses backups into a tar.gz archive
+
 ✅ Cleans up individual backup files after archiving
 
 # Requirements
