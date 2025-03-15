@@ -34,7 +34,7 @@ NAMESPACE="ns-production2"
 # PGUSER: The username used to connect to PostgreSQL.
 # PGHOST: The host where PostgreSQL is running (in this case, inside the Kubernetes pod).
 # PGPORT: The port used to communicate with PostgreSQL (default is 5432).
-PGUSER="admin"
+PGUSER="*"
 PGHOST="localhost"
 PGPORT="5432"
 
